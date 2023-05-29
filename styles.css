@@ -1,0 +1,64 @@
+:root {
+    --nord0: #2E3440;
+    --nord1: #3B4252;
+    --nord2: #434C5E;
+    --nord3: #4C566A;
+    --nord4: #D8DEE9;
+    --nord5: #E5E9F0;
+    --nord6: #ECEFF4;
+    --nord7: #8FBCBB;
+    --nord8: #88C0D0;
+    --nord9: #81A1C1;
+    --nord10: #5E81AC;
+    --nord11: #BF616A; 
+    --nord12: #D08770;
+    --nord0: #EBCB8B;
+    --nord0: #A3BE8C;
+    --nord0: #B48EAD;
+    --font: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neu Helvetica", "Arial", sans-serif;
+    --font1: BlinkMacSystemFont, -apple-system, "Roboto";
+}
+
+/*
+* {outline: 1px solid blue;}
+*/
+
+body {
+    font-family: var(--font1);
+    color: var(--nord10) ;
+}
+
+header, section{
+    width: 960px;
+    margin: 0 auto;
+}
+
+ul{
+    color: var(--nord1);
+}
+
+header{
+    background-color: var(--nord8);
+    color: white;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 16px;
+}
+
+header{
+    display:flex;
+}
+
+section{
+    display:flex;
+}
+
+article{
+    width: 50%;
+}
+
+img {
+   width: 200px;
+   height: 200px;
+   margin-right: 16px;
+}
