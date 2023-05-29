@@ -22,10 +22,13 @@
 /*
 * {outline: 1px solid blue;}
 */
+h2{
+    color: var(--nord10) ;
+}
 
 body {
     font-family: var(--font1);
-    color: var(--nord10) ;
+    
 }
 
 header, section{
@@ -57,8 +60,19 @@ article{
     width: 50%;
 }
 
+aside{
+}
+
 img {
    width: 200px;
    height: 200px;
    margin-right: 16px;
+}
+
+div{
+    padding-left: 160px;
+}
+
+h4{
+    color: var(--)
 }
